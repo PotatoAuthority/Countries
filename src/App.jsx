@@ -12,11 +12,12 @@ function App() {
   return (
     <>
       <section id="center">
-        <h1>My React Project</h1>
+        {/* <h1>My React Project</h1> */}
         <Suspense fallback={<p>Countries loading...</p>}>
           <Countries countriesPromise={countriesPromise}></Countries>
         </Suspense>
-        <Country></Country>
+        {/* doesnt work lol */  }
+        {/* <Country></Country> */}  
       </section>
 
     </>
